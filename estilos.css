@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    opacity: 96%;
+    }
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 3%;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #eead2d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #ac7915;
+}
+
+div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #edf0f1;
+    background: none;
+    padding: 180px 3%;
+}
+
+.Abaixo_texto {
+    position: fixed;
+    margin-top: 250px;
+}
+
+.Text_Maior {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
+    color: #edf0f1;
+    justify-content: right;
+    position: fixed;
+    padding: 0px 3%;
+    margin-top: 200px;
+    background: none;
+}
+
+.letras {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
+    color: #edf0f1;
+    justify-content: right;
+    position: fixed;
+    padding: 0px 2%;
+    margin-top: 310px;
+    background: none;
+}
+
+.Mid_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
+    color: #edf0f1;
+    justify-content: right;
+    padding: 0px 3%;
+    margin-top: 200px;
+    background: none;
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #eead2d;
+}
+
+.background{
+    background-image: url(imagens/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

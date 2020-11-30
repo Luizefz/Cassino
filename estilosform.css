@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+input {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+	font-size: 20px;
+	padding: 5px 7px 3px;
+	margin-left: 10px;
+	background-color: #eead2d;
+	color: #edf0f1;
+	border-radius: 50px;
+	border: none 
+
+}
+
+::placeholder {
+	color: #edf0f1;
+	opacity: 50%;
+}
+
+label {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+	text-decoration: none;
+	padding: 10px;
+}
+
+div {
+	background-color: #24252a;
+	opacity: 93%;
+	display: flex;
+	position: fixed;
+	height: 100%;
+	width: 40%;
+	
+}
+form {
+	padding: 20px 3%;
+}
+
+button {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+	margin-left: 2%;
+	margin-top: 5%;
+    padding: 9px 25px;
+	background-color: #eead2d;
+	color: #edf0f1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #ac7915;
+}
+
+.Mid_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
+    color: #edf0f1;
+    justify-content: right;
+    padding: 0px 3%;
+    margin-top: 200px;
+    background: none;
+}
+
+.background {
+	background-image: url(imagens/Fundo_Cadastro.jpg);
+	background-repeat: no-repeat;	
+	background-size: cover;
+
+}
+
+.opcoes{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	background-color: #eead2d;
+	border: none;
+	margin-left: 2%;
+	padding: 10px 1%;
+	width: 515px;
+	height: 40px;
+	border-radius:6px;
+	font-size: 16px;
+	color: #edf0f1 ;
+	outline: none;
+	overflow: hidden;
+}
